@@ -101,7 +101,7 @@ elif [[ "$WORKFLOW_NAME" == "GL-MT3600BE" ]]; then
         exit 1
     fi
 
-    set_default_ip "192.168.9.1" "mt3600be"
+    set_default_ip "192.168.8.1" "mt3600be"
 
 # --- 逻辑块 5: 处理 GL-MT5000 ---
 elif [[ "$WORKFLOW_NAME" == "GL-MT5000" ]]; then
